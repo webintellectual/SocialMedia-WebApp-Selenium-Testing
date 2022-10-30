@@ -8,3 +8,11 @@ $ cd SocialMediaApp
 $ npm start
 ```
 Go to: http://localhost:8000/
+<hr/>
+
+[Selenium Webdriver Project in Java](https://github.com/webintellectual/SocialMedia-WebApp-Selenium-Testing/tree/main/SeleniumWebDriver_Java/src/Scripts)
+
+[Selenium Chrome IDE Project](https://github.com/webintellectual/SocialMedia-WebApp-Selenium-Testing/blob/main/logInAndOther.side)
+<hr/>
+
+Web App Credit: @Aryanhac
