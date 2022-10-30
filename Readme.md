@@ -15,4 +15,4 @@ Go to: http://localhost:8000/
 [Selenium Chrome IDE Project](https://github.com/webintellectual/SocialMedia-WebApp-Selenium-Testing/blob/main/logInAndOther.side)
 <hr/>
 
-Web App Credit: @Aryanhac
+Web App Credit: [@Aryanhac](https://github.com/Aryanhac)
