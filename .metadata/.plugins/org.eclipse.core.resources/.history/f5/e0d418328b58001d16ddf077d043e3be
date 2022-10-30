@@ -1,0 +1,23 @@
+package Scripts;
+import java.util.Arrays;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class SignUpTest {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver","/Users/akshay.1/Documents/CS_Projects/SocialMedia-WebApp-Testing-with-Selenium/JarsAndDriver/chromedriver"); // To load driver
+		WebDriver driver = new ChromeDriver(); // creating driver object
+		driver.manage().window().maximize(); // maximises browser's window
+		driver.manage().deleteAllCookies(); // not mandatory
+		
+		driver.navigate().to("http://localhost:8000/SignUp");
+		
+		
+		driver.quit();
+	}
+
+}

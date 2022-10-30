@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SocialMediaWebAppTesting&apos; to &apos;SeleniumWebDriver_Java&apos;" description="Rename resource &apos;SocialMediaWebAppTesting&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/SocialMediaWebAppTesting" name="SeleniumWebDriver_Java" stamp="1667167269051" updateReferences="true"/>
+</session>
