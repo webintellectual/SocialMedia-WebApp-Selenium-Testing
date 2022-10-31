@@ -9,7 +9,7 @@ public class LogIn {
 	
 	public static void logIn(WebDriver driver) throws InterruptedException {
 		
-		String[] email = {"testsc@gmail.com"};
+		String[] email = {"testnpm@gmail.com"};
 		CharSequence[] email_csa;
 		email_csa = (CharSequence[]) Arrays.copyOf(email, email.length, CharSequence[].class);
 		driver.findElement(By.name("username")).sendKeys(email_csa);
@@ -22,8 +22,21 @@ public class LogIn {
 		Thread.sleep(2500);
 		
 		driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[3]/div[2]/form/div[3]/button")).submit();
+		Thread.sleep(4000);
+		
+		// next page
 		
 		
+	}
+	public static void openProfile(WebDriver driver) {
+		driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[3]/div[1]/a/div/div[2]/span")).click();
+	}
+	public static void EditProfile(WebDriver driver) {
+		// click edit button
+		driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[3]/div[1]/div[2]/div[1]/div/svg/path")).click();
+	}
+	public static void logout(WebDriver driver) {
+		driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[3]/div[1]/div[2]/button")).click();
 	}
 	
 
@@ -36,6 +49,8 @@ public class LogIn {
 		Thread.sleep(4000);
 		
 		logIn(driver);
+		openProfile(driver);
+		logout(driver);
 		
 	}
 

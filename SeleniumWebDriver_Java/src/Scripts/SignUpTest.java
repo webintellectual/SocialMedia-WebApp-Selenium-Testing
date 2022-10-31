@@ -1,5 +1,6 @@
 package Scripts;
 import java.util.Arrays;
+
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -42,7 +43,7 @@ public class SignUpTest {
 		Thread.sleep(2500);
 		
 		// Exploited Xpath here
-		String[] email = {"testsiop@gmail.com"};
+		String[] email = {"testagain@gmail.com"};
 		CharSequence[] email_csa;
 		email_csa = (CharSequence[]) Arrays.copyOf(email, email.length, CharSequence[].class);
 		driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[3]/div[2]/form/div[3]/input[2]")).sendKeys(email_csa);
